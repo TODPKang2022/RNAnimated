@@ -14,13 +14,18 @@ import DrawerMenu from './src/ch3/DrawerMenu';
 import Collapse from './src/ch3/Collapse';
 import Progressbar from './src/ch3/Progressbar';
 import Skeleton from './src/ch3/Skeleton';
+import SnowAnimation from './src/ch3/SnowAnimation';
+import LayoutAnimationIntro from './src/ch4/LayoutAnimationIntro';
+import LayoutAnimationPageHeader from './src/ch4/LayoutAnimationPageHeader';
+
+import InteractionManagerIntro from './src/ch4/InteractionManagerIntro';
 
 function App(): React.JSX.Element {
   return (
     // <SafeAreaView
     //   style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
     //   <AnimatedProperty />
-    <Skeleton />
+    <InteractionManagerIntro />
     // </SafeAreaView>
   );
 }
