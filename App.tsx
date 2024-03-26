@@ -20,12 +20,20 @@ import LayoutAnimationPageHeader from './src/ch4/LayoutAnimationPageHeader';
 
 import InteractionManagerIntro from './src/ch4/InteractionManagerIntro';
 
+import PanresponderIntro from './src/ch6/PanresponderIntro';
+import PanresponderBall from './src/ch6/PanresponderBall';
+import PanresponderModal from './src/ch6/PanresponderModal';
+import PanresponderBannerSlider from './src/ch6/PanresponderBannerSlider';
+import PanresponderFontSlider from './src/ch6/PanresponderFontSlider';
+import ViewLayoutEvent from './src/ch6/ViewLayoutEvent';
+import FlatListCheckRenderList from './src/ch8/FlatListCheckRenderList';
+
 function App(): React.JSX.Element {
   return (
     // <SafeAreaView
     //   style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
     //   <AnimatedProperty />
-    <InteractionManagerIntro />
+    <FlatListCheckRenderList />
     // </SafeAreaView>
   );
 }
